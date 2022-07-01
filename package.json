@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-css-website",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://goldi12.github.io/tailwind-website/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
